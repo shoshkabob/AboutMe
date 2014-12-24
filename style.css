@@ -1,0 +1,130 @@
+header {
+	background: url('http://i.imgur.com/1I3csWs.jpg');
+	background-size: cover;
+	background-position: top;
+	color: white;
+	padding: 40px 0px 10px 0px;
+	text-align: center;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+h1 {
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2 {
+	font-size:40px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-align: left;
+	margin: 0px 10px;
+	color: rgb(209, 0, 0);
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	margin: 10px 30px 10px 30px;
+}
+
+.navbar {
+	background-color: black;
+	height: 75px;
+	text-align: center;
+}
+
+.nav {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	position: relative;
+	top: 25;
+	display: inline;
+	height: 75px;
+	margin: 25px;
+	padding: 24px;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: rgb(209, 0, 0);
+}
+
+.nav a:visited {
+	color: white;
+}
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 36px;
+	}
+	.navbar {
+		height: auto;
+	}
+	.nav {
+		display: block;
+		padding: 5px;
+		margin: 5px;
+		height: 25px;
+		position: static;
+	}
+}
+
+#content {
+	margin: 30px 20px;
+}
+
+p[name="contact"] {
+	text-align: center;
+	margin: 40px 40px;
+}
+
+p[name="contact"] img {
+	display: inline-block;
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+p[name="one"] {
+	text-align:center;
+	font-size: 25px;
+	margin: 40px;
+}
+p {
+	text-align: left;
+	font-size: 16px;
+	margin: 10px 30px 10px 30px;
+	line-height: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	color: rgb(209, 0, 0);
+}
+
+a:hover {
+	color: rgb(140, 200, 219);
+}
+
+a:visited {
+	color: rgb(171, 171, 171);
+}
+
+footer {
+	font-size: 12px;
+	font-style: italic;
+	margin: 10px;
+	text-align: right;
+}
