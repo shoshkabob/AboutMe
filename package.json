@@ -1,0 +1,23 @@
+{
+  "name": "AboutMe",
+  "version": "1.0.0",
+  "description": "My about me page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoshkabob/AboutMe.git"
+  },
+  "keywords": [
+    "Shoshanah",
+    "Weisinger"
+  ],
+  "author": "Shoshanah Weisinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoshkabob/AboutMe/issues"
+  },
+  "homepage": "https://github.com/shoshkabob/AboutMe"
+}
