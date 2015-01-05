@@ -6,10 +6,12 @@ header {
 	padding: 40px 0px 10px 0px;
 	text-align: center;
 }
+
 body {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 }
+
 h1 {
 	font-size: 50px;
 	font-family: 'Oswald', sans-serif;
@@ -17,6 +19,22 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+h1 a:visited {
+	color: white;
+	text-decoration: none;
+}
+
 h2 {
 	font-size:40px;
 	font-family: 'Oswald', sans-serif;
@@ -30,6 +48,22 @@ h3 {
 	font-size: 28px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
+	margin: 10px 30px 10px 30px;
+}
+
+h3 a {
+	color: black;
+}
+
+h3 a:visited {
+	color: black;
+}
+
+h3 a:hover {
+	color: rgb(140, 200, 219);
+}
+
+iframe {
 	margin: 10px 30px 10px 30px;
 }
 
@@ -69,6 +103,12 @@ h3 {
 	h1 {
 		font-size: 36px;
 	}
+	h2 {
+		font-size: 26px;
+	}
+	h3 {
+		font-size: 18px;
+	}
 	.navbar {
 		height: auto;
 	}
@@ -78,6 +118,14 @@ h3 {
 		margin: 5px;
 		height: 25px;
 		position: static;
+	}
+	.youtube {
+		width: 280px;
+		height: 162.5px;
+	}
+	p[name="contact"] img {
+		height: 50px;
+		width: 50px;
 	}
 }
 
@@ -102,6 +150,15 @@ p[name="one"] {
 	font-size: 25px;
 	margin: 40px;
 }
+
+#intro {
+	font-size: 28px;
+	text-align: center;
+	padding-top: 40px;
+	color: rgb(209, 0, 0);
+	font-family: 'Oswald', sans-serif;
+}
+
 p {
 	text-align: left;
 	font-size: 16px;

@@ -8,7 +8,18 @@ var server = http.createServer(function (req, res) {
 				console.log(err);
 			}
 			else {
-				res.end(data.toString());
+				var page = data.toString();
+				
+				fs.readFile("main.html", function (err, data) {
+					if (err) {
+						console.log(err);
+					}
+					else {
+						var content = data.toString();
+						page = page.replace("[replace]", content);
+						res.end(page);
+					}
+				});
 			}
 		});
 	}
