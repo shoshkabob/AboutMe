@@ -99,35 +99,7 @@ iframe {
 	color: white;
 }
 
-@media (max-width: 700px) {
-	h1 {
-		font-size: 36px;
-	}
-	h2 {
-		font-size: 26px;
-	}
-	h3 {
-		font-size: 18px;
-	}
-	.navbar {
-		height: auto;
-	}
-	.nav {
-		display: block;
-		padding: 5px;
-		margin: 5px;
-		height: 25px;
-		position: static;
-	}
-	.youtube {
-		width: 280px;
-		height: 162.5px;
-	}
-	p[name="contact"] img {
-		height: 50px;
-		width: 50px;
-	}
-}
+
 
 #content {
 	margin: 30px 20px;
@@ -185,4 +157,44 @@ footer {
 	font-style: italic;
 	margin: 10px;
 	text-align: right;
+}
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.navbar {
+		height: auto;
+	}
+	.nav {
+		display: block;
+		padding: 5px;
+		margin: 5px;
+		height: 25px;
+		position: static;
+	}
+	.youtube {
+		width: 280px;
+		height: 162.5px;
+	}
+	.soundcloud {
+		width: 80%;
+	}
+	p[name="contact"] img {
+		height: 80;
+		width: 80;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	p[name="contact"] img {
+		height: 50px;
+		width: 50px;
+	}
 }
