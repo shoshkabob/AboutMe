@@ -1,5 +1,3 @@
-var x = parseInt(process.argv[2]);
-
 var fs = require('fs');
 var http = require('http');
 
@@ -63,4 +61,4 @@ var server = http.createServer(function (req, res) {
 	}
 });
 
-server.listen(x);
+server.listen(8080);
