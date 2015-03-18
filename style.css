@@ -71,6 +71,7 @@ iframe {
 	background-color: black;
 	height: 75px;
 	text-align: center;
+	overflow: auto;
 }
 
 .nav {
