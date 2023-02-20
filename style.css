@@ -65,6 +65,7 @@ h3 a:hover {
 
 #me_pic {
 	width: 250px;
+	height: 250px;
 	border: 20px solid white;
 	border-radius: 200px;
 }
