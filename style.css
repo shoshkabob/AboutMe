@@ -63,6 +63,12 @@ h3 a:hover {
 	color: rgb(140, 200, 219);
 }
 
+#me_pic {
+	width: 250px;
+	border: 20px solid white;
+	border-radius: 200px;
+}
+
 iframe {
 	margin: 10px 30px 10px 30px;
 }
@@ -132,6 +138,7 @@ p[name="one"] {
 	font-family: 'Oswald', sans-serif;
 	line-height: 34px;
 }
+
 
 p {
 	text-align: left;
